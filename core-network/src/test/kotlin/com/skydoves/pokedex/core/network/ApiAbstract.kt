@@ -42,7 +42,7 @@ abstract class ApiAbstract<T> {
   @JvmField
   val instantExecutorRule: InstantTaskExecutorRule = InstantTaskExecutorRule()
 
-  @get:Rule
+  @Rule
   val coroutinesRule = MainCoroutinesRule()
 
   lateinit var mockWebServer: MockWebServer

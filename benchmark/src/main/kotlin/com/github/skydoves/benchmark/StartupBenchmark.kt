@@ -52,7 +52,7 @@ class HotStartupBenchmark : AbstractStartupBenchmark(StartupMode.HOT)
  * Enables app startups from various states of baseline profile or [CompilationMode]s.
  */
 abstract class AbstractStartupBenchmark(private val startupMode: StartupMode) {
-  @get:Rule
+  @Rule
   val benchmarkRule = MacrobenchmarkRule()
 
   @Test

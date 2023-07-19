@@ -46,7 +46,7 @@ class DetailViewModelTest {
   private val pokedexClient: PokedexClient = PokedexClient(pokedexService)
   private val pokemonInfoDao: PokemonInfoDao = mock()
 
-  @get:Rule
+  @Rule
   val coroutinesRule = MainCoroutinesRule()
 
   @Before

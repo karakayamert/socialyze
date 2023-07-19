@@ -46,7 +46,7 @@ class MainViewModelTest {
   private val pokdexClient: PokedexClient = PokedexClient(pokedexService)
   private val pokemonDao: PokemonDao = mock()
 
-  @get:Rule
+  @Rule
   val coroutinesRule = MainCoroutinesRule()
 
   @Before

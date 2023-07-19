@@ -31,7 +31,7 @@ import org.junit.Test
  * Generates a baseline profile which can be copied to `app/src/main/baseline-prof.txt`.
  */
 class BaselineProfileGenerator {
-  @get:Rule
+  @Rule
   val baselineProfileRule = BaselineProfileRule()
 
   @Test

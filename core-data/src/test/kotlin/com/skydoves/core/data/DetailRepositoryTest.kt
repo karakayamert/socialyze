@@ -46,7 +46,7 @@ class DetailRepositoryTest {
   private val service: PokedexService = mock()
   private val pokemonInfoDao: PokemonInfoDao = mock()
 
-  @get:Rule
+  @Rule
   val coroutinesRule = MainCoroutinesRule()
 
   @Before
