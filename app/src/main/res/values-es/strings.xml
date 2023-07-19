@@ -15,7 +15,7 @@
     limitations under the License.
 -->
 <resources>
-  <string name="app_name">Pokédex</string>
+  <string name="app_name">Socialyze</string>
   <string name="height">Altura</string>
   <string name="weight">Peso</string>
   <string name="base_stats">Puntos de base</string>

@@ -44,6 +44,7 @@ class MainViewModel @Inject constructor(
     private set
 
   private val pokemonFetchingIndex: MutableStateFlow<Int> = MutableStateFlow(0)
+
   private val pokemonListFlow = pokemonFetchingIndex.flatMapLatest { page ->
     mainRepository.fetchPokemonList(
       page = page,
